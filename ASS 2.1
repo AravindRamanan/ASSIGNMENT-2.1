@@ -151,6 +151,39 @@ construct another method which involves finding sum for 3 numbers
 here in this two methods, number of parameters passed are  different.
 This method can be overloaded only if number of paramters differ from each other
 
+LOGIC: 
+
+import java.util.Scanner;
+
+public class acad {
+	public static int sum(int a , int b)			//method sum which returns sum of 2 integers.
+    {
+        return a+b;
+         
+    }
+    public static int  sum(int a,int b,int c)  		//method sum which returns sum of 3 integers.
+    {
+    	int d=a+b+c;
+         return d;
+    }
+	
+	public static void main(String args[])
+	{
+		Scanner sc= new Scanner(System.in);
+		
+		int a = sc.nextInt();
+		int b = sc.nextInt();
+		int c=  sc.nextInt();
+		int x=sum(a,b);					//	sum with integer type as input
+		System.out.println(x);
+		int y=sum(a,b,c);					//	sum with same integer type as input
+		System.out.println(y);
+		}
+	}
+
+
+
+
 
 8)
 import java.util.*;
