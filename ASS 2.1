@@ -1,0 +1,118 @@
+1)
+import java.util.*;
+public class acad {
+public static void main(String args[])
+{
+	
+	Scanner sc=new Scanner(System.in);
+	int a=6;								                //initializing the varaible with the number
+	int b=5;								                //initializing the variable with the number
+	int sum=a+b;							              //finding sum
+	System.out.println(sum);				       //printing the sum
+}
+}
+
+2)
+
+import java.util.*;
+public class acad {
+public static void main(String args[])
+{
+	
+	Scanner sc=new Scanner(System.in);
+	int a=sc.nextInt();								      //reading the first input from user
+	int b=sc.nextInt();								     //reading the second input from user
+	int sum=a+b;									         //finding sum
+	System.out.println(sum);						  //printing the sum
+}
+}
+
+
+4)
+import java.util.*;
+public class Main {
+public static void main(String args[])
+{
+	
+	Scanner sc=new Scanner(System.in);
+	int n1=sc.nextInt();					              //reading the first number from user
+	int n2=sc.nextInt();					             //reading the second number from user
+	ArrayList<Integer> al=new ArrayList<>();
+	ArrayList<Integer> al1=new ArrayList<>();
+	for(int i=n1;i<=n2;i++)
+	{
+		if(i%2!=0)					                    //checking if the number is odd
+		{
+			al.add(i);
+		}
+		else						                        //if number is not odd,then it is even
+		{
+			al1.add(i);
+		}
+	}
+	System.out.println("odd numbers are ");
+	for(int k:al)
+		System.out.println(k);			          	//printing the odd numbers
+	System.out.println("even numbers are ");
+	for(int l:al1)
+		System.out.println(l);				          //printing the even numbers
+
+}
+}
+
+
+
+5)
+import java.util.*;
+public class Main {
+public static void main(String args[])
+{
+	
+	Scanner sc=new Scanner(System.in);
+	int n=sc.nextInt();                           		//reading the number from user
+	int k=0;	                                   	    //initializing the variable k with 0
+	for(int i=1;i<=10;i++)
+	{
+		k=i*n;
+		System.out.println(n+"x"+i+"="+k);         	    //printing the table of the number
+	}	
+	
+}
+}
+
+6)
+import java.util.*;
+public class acad {
+public static void main(String args[])
+{
+	
+	Scanner sc=new Scanner(System.in);
+	int n=sc.nextInt();					              //getting the length of array
+	int a[]=new int[n];					              //declaring and initializing the array size
+	for(int i=0;i<n;i++)
+	{
+		a[i]=sc.nextInt();				              //reading inputs
+	}
+	Arrays.sort(a);						                //sorting in ascending order first
+for(int i=n-1;i>=0;i--)
+{
+	System.out.println(a[i]);			            //reversing the order
+}
+
+}}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
